@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">KITQuizAPP</string>
+    <string name="date_of_birth">Date of Birth: </string>
+    <string name="quizapp">Welcome to KITQuizApp</string>
+    <string name="username">Username:</string>
+    <string name="_1_q1">1. What is KIT?</string>
+    <string name="_2_q2">2. How many major in KIT?</string>
+    <string name="_3_q3">3. How many batches in KIT? 2020</string>
+    <string name="_4_q4">4. Which one is Official Website of KIT?</string>
+    <string name="_5_q5">5. Where is KIT?</string>
+    <string name="submit">Submit</string>
+    <string name="enter_username">Enter Username</string>
+    <string name="enter_birth_of_date">mm/yy</string>
+    <string name="result">Result:</string>
+</resources>

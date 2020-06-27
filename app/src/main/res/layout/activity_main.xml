@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:ignore="ScrollViewCount">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:background="#458dca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/quizapp"
+            android:textAlignment="center"
+            android:textSize="40sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:text="@string/username" />
+
+        <EditText
+            android:id="@+id/userInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_username"
+            android:importantForAutofill="no"
+            android:inputType="text" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:text="@string/date_of_birth" />
+
+        <EditText
+            android:id="@+id/dobInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_birth_of_date"
+            android:importantForAutofill="no"
+            android:inputType="date" />
+
+        <RadioGroup
+            android:id="@+id/Radio_Q1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#be7a77">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_1_q1"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/A_1_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kirirom Institute of Technology"
+                tools:ignore="HardcodedText" />
+
+            <RadioButton
+                android:id="@+id/A_1_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Technology of Kirirom Institute"
+                tools:ignore="HardcodedText" />
+
+            <RadioButton
+                android:id="@+id/A_1_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Institute of Kirrirom Technology"
+                tools:ignore="HardcodedText" />
+
+            <RadioButton
+                android:id="@+id/A_1_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kirrirom of Technology Institute"
+                tools:ignore="HardcodedText" />
+
+            <RadioButton
+                android:id="@+id/A_1_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kirirom Intutute of Technology"
+                tools:ignore="HardcodedText" />
+
+
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/Radio_Q2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#be7a77">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_2_q2"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/A_2_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10000000"
+                tools:ignore="HardcodedText" />
+
+            <RadioButton
+                android:id="@+id/A_2_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="20000"
+                tools:ignore="HardcodedText" />
+
+            <RadioButton
+                android:id="@+id/A_2_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="300"
+                tools:ignore="HardcodedText" />
+
+            <RadioButton
+                android:id="@+id/A_2_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="99"
+                tools:ignore="HardcodedText" />
+
+            <RadioButton
+                android:id="@+id/A_2_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3"
+                tools:ignore="HardcodedText" />
+
+
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/Radio_Q3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#be7a77">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_3_q3"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/A_3_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10"
+                tools:ignore="HardcodedText" />
+
+            <RadioButton
+                android:id="@+id/A_3_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="13"
+                tools:ignore="HardcodedText" />
+
+            <RadioButton
+                android:id="@+id/A_3_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9"
+                tools:ignore="HardcodedText" />
+
+            <RadioButton
+                android:id="@+id/A_3_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8"
+                tools:ignore="HardcodedText" />
+
+            <RadioButton
+                android:id="@+id/A_3_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="32"
+                tools:ignore="HardcodedText" />
+
+
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/Radio_Q4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#be7a77">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_4_q4"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/A_4_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="KIT.info"
+                tools:ignore="HardcodedText" />
+
+            <RadioButton
+                android:id="@+id/A_4_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="KIT.edu.kh"
+                tools:ignore="HardcodedText" />
+
+            <RadioButton
+                android:id="@+id/A_4_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="http://kirirom-institute-of-technology.blogspot.com/"
+                tools:ignore="HardcodedText" />
+
+            <RadioButton
+                android:id="@+id/A_4_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="kirirom.info"
+                tools:ignore="HardcodedText" />
+
+            <RadioButton
+                android:id="@+id/A_4_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="kirirom.edu.kh"
+                tools:ignore="HardcodedText" />
+
+
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/Radio_Q5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#be7a77">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_5_q5"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/A_5_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kompong Som"
+                tools:ignore="HardcodedText" />
+
+            <RadioButton
+                android:id="@+id/A_5_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Koh Kong"
+                tools:ignore="HardcodedText" />
+
+            <RadioButton
+                android:id="@+id/A_5_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Siemreap"
+                tools:ignore="HardcodedText" />
+
+            <RadioButton
+                android:id="@+id/A_5_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kompong Speu"
+                tools:ignore="HardcodedText" />
+
+            <RadioButton
+                android:id="@+id/A_5_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Prey Veng"
+                tools:ignore="HardcodedText" />
+
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:text=""
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:background="#c0c7ca"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Submitbutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#9300a4"
+            android:text="@string/submit" />
+    </LinearLayout>
+</ScrollView>

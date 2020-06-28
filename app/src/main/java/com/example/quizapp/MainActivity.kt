@@ -118,16 +118,13 @@ class MainActivity : AppCompatActivity() {
             }
 
             //Loop for Disable Check box after click submit button
-            for (index in 1 until Radio_Q1.childCount)
+            for (index in 1..5) {
                 Radio_Q1.getChildAt(index).isEnabled = false
-            for (index in 1 until Radio_Q2.childCount - 1)
                 Radio_Q2.getChildAt(index).isEnabled = false
-            for (index in 1 until Radio_Q3.childCount)
                 Radio_Q3.getChildAt(index).isEnabled = false
-            for (index in 1 until Radio_Q4.childCount)
                 Radio_Q4.getChildAt(index).isEnabled = false
-            for (index in 1 until Radio_Q5.childCount)
                 Radio_Q5.getChildAt(index).isEnabled = false
+            }
             // Method Disable Edit Text
             userInput.isEnabled = false
             dobInput.isEnabled = false
